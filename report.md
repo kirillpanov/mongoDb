@@ -1,16 +1,3 @@
-{
-"\_id" : ObjectId("5c1ac87f83a2ce2dfcbe21f2"),
-"passengers" : 0,
-"carrier" : "Korean Air Lines Co. Ltd.",
-"originCity" : "Dallas/Fort Worth, TX",
-"originState" : "Texas",
-"originCountry" : "United States",
-"destCity" : "Guadalajara, Mexico",
-"destState" : "",
-"destCountry" : "Mexico",
-"class" : "G"
-}
-
 1. How many records does each airline class have? Use \$project to show result as { class:
    "Z", total: 999 }
 
